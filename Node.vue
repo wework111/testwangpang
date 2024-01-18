@@ -1,3 +1,4 @@
+111
 <template>
   <div class="node-f  position-absolute" :id="'node' + id" :style="{ left, top, 'z-index': z }">
     <div class="node border-r2" @mousedown="handleNodeAlive" @touchstart="handleNodeAlive">
